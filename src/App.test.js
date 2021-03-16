@@ -7,7 +7,7 @@ const createWrapper = () => {
   return shallow(<App />);
 };
 
-describe("App", () => {
+describe("App component", () => {
   test("renders correctly", () => {
     const wrapper = createWrapper();
     const element = findElement(wrapper, "app-component");
